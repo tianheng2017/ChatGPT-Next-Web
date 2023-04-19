@@ -20,6 +20,7 @@ import DarkIcon from "../icons/dark.svg";
 import AutoIcon from "../icons/auto.svg";
 import BottomIcon from "../icons/bottom.svg";
 import StopIcon from "../icons/pause.svg";
+import AqygjIcon from "../icons/aqygj.svg";
 
 import {
   Message,
@@ -65,8 +66,6 @@ const Emoji = dynamic(async () => (await import("emoji-picker-react")).Emoji, {
 });
 
 export function Avatar(props: { role: Message["role"] }) {
-  const config = useChatStore((state) => state.config);
-
   if (props.role !== "user") {
     return (
       <div className="no-dark">
@@ -76,8 +75,8 @@ export function Avatar(props: { role: Message["role"] }) {
   }
 
   return (
-    <div className={styles["user-avtar"]}>
-      <Emoji unified={config.avatar} size={18} getEmojiUrl={getEmojiUrl} />
+    <div className="no-dark">
+      <AqygjIcon className={styles["user-avtar"]} />
     </div>
   );
 }
