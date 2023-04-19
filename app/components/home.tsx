@@ -170,6 +170,7 @@ function _Home() {
           <div className={styles["sidebar-sub-title"]}>
             一直陪伴，永不疲倦，掌上明珠，您的AI助手
           </div>
+
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
           </div>
