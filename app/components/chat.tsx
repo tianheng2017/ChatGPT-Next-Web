@@ -61,10 +61,6 @@ const Markdown = dynamic(
   },
 );
 
-const Emoji = dynamic(async () => (await import("emoji-picker-react")).Emoji, {
-  loading: () => <LoadingIcon />,
-});
-
 export function Avatar(props: { role: Message["role"] }) {
   if (props.role !== "user") {
     return (
