@@ -335,26 +335,6 @@ export function Settings(props: { closeSettings: () => void }) {
             </select>
           </SettingItem>
 
-          <ListItem>
-            <div className={styles["settings-title"]}>
-              {Locale.Settings.Theme}
-            </div>
-            <select
-              value={config.theme}
-              onChange={(e) => {
-                updateConfig(
-                  (config) => (config.theme = e.target.value as any as Theme),
-                );
-              }}
-            >
-              {Object.values(Theme).map((v) => (
-                <option value={v} key={v}>
-                  {v}
-                </option>
-              ))}
-            </select>
-          </ListItem>
-
           <SettingItem
             title={Locale.Settings.FontSize.Title}
             subTitle={Locale.Settings.FontSize.SubTitle}

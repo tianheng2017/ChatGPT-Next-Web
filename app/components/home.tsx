@@ -168,7 +168,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>安全云管家AI</div>
           <div className={styles["sidebar-sub-title"]}>
-            一直陪伴，永不疲倦，掌上明珠，您的AI助手
+            一直陪伴，永不疲倦，您的AI助手
           </div>
 
           <div className={styles["sidebar-logo"]}>

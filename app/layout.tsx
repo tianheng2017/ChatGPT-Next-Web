@@ -9,7 +9,7 @@ const buildConfig = getBuildConfig();
 
 export const metadata = {
   title: "安全云管家AI",
-  description: "一直陪伴，永不疲倦，掌上明珠，您的AI助手",
+  description: "一直陪伴，永不疲倦，您的AI助手",
   appleWebApp: {
     title: "安全云管家AI",
     statusBarStyle: "default",
