@@ -69,7 +69,7 @@ export type ModelConfig = ChatConfig["modelConfig"];
 
 export const ROLES: Message["role"][] = ["system", "user", "assistant"];
 
-const ENABLE_GPT4 = true;
+const ENABLE_GPT4 = false;
 
 export const ALL_MODELS = [
   {
@@ -139,7 +139,7 @@ const DEFAULT_CONFIG: ChatConfig = {
   submitKey: SubmitKey.CtrlEnter as SubmitKey,
   avatar: "1f603",
   fontSize: 14,
-  theme: Theme.Auto as Theme,
+  theme: Theme.Light as Theme,
   tightBorder: false,
   sendPreviewBubble: true,
   sidebarWidth: 300,

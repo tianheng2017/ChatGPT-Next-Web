@@ -22,7 +22,6 @@ import Locale from "../locales";
 import { Chat } from "./chat";
 
 import dynamic from "next/dynamic";
-import { REPO_URL } from "../constant";
 import { ErrorBoundary } from "./error";
 
 export function Loading(props: { noLogo?: boolean }) {
@@ -167,9 +166,9 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+          <div className={styles["sidebar-title"]}>安全云管家AI</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            一直陪伴，永不疲倦，掌上明珠，您的AI助手
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
@@ -203,11 +202,6 @@ function _Home() {
                 }}
                 shadow
               />
-            </div>
-            <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank">
-                <IconButton icon={<GithubIcon />} shadow />
-              </a>
             </div>
           </div>
           <div>

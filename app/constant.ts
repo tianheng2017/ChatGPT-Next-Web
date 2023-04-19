@@ -1,8 +1,8 @@
-export const OWNER = "Yidadaa";
-export const REPO = "ChatGPT-Next-Web";
-export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
-export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
-export const UPDATE_URL = `${REPO_URL}#keep-updated`;
-export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
-export const FETCH_TAG_URL = `https://api.github.com/repos/${OWNER}/${REPO}/tags?per_page=1`;
+export const OWNER = "重庆安隐科技有限公司";
+export const REPO = "安全云管家AI";
+export const REPO_URL = `https://h5.aqygj.com/home/index`;
+export const ISSUE_URL = `https://h5.aqygj.com/home/index`;
+export const UPDATE_URL = `https://h5.aqygj.com/home/index`;
+export const FETCH_COMMIT_URL = `https://h5.aqygj.com/home/index`;
+export const FETCH_TAG_URL = `https://h5.aqygj.com/home/index`;
 export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
